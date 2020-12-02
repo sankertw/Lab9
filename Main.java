@@ -55,7 +55,7 @@ class Main {
         name = reader.readLine();
         age = reader.readLine();
         color = reader.readLine();
-        System.out.printf("%-10s",name + "\t" + age + "\t" + color + "\n");
+        System.out.printf("%-10s %-10s %-10s %n", name, age, color );
       }
       reader.close();
     }
